@@ -12,7 +12,7 @@ public class Videojuego {
     private String nombre;
 
     private String compañia;
-    private Double nota;
+    private Double notas;
 
     public Long getId() {
         return id;
@@ -39,11 +39,11 @@ public class Videojuego {
     }
 
     public Double getNota() {
-        return nota;
+        return notas;
     }
 
     public void setNota(Double nota) {
-        this.nota = nota;
+        this.notas = nota;
     }
 
 
